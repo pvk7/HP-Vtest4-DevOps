@@ -32,3 +32,9 @@ jobs:
           tool-id: ${{ secrets.SN_ORCHESTRATION_TOOL_ID }}
           context-github: ${{ toJSON(github) }}
           job-name: 'ServiceNow DevOps Change'
+
+change-request: '{
+  "attributes": {
+    "short_description": "GitHub Deployment",
+      }
+}'
