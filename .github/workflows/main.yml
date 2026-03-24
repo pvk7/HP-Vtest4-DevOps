@@ -34,4 +34,23 @@ jobs:
           job-name: 'ServiceNow DevOps Change'
 
 
+change-request: '{
+  "attributes": {
+    "short_description": "GitHub Deployment Change",
+    "description": "Triggered from GitHub Actions",
 
+        "impact": "3",
+
+    "justification": "Deployment required for release",
+    "implementation_plan": "Execute deployment via pipeline",
+    "backout_plan": "Rollback to previous version",
+    "test_plan": "Test deployment in lower environments",
+    "u_communication_plan": "Notify stakeholders before deployment",
+
+       "start_date": "2026-03-24 10:00:00",
+    "end_date": "2026-03-24 12:00:00",
+
+    "planned_start_date": "2026-03-24 10:00:00",
+    "planned_end_date": "2026-03-24 12:00:00"
+  }
+}'
