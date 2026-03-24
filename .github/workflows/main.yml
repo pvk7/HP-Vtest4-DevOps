@@ -33,13 +33,5 @@ jobs:
           context-github: ${{ toJSON(github) }}
           job-name: 'ServiceNow DevOps Change'
 
-change-request: '{
-  "attributes": {
-    "short_description": "GitHub DevOps Change Deployment",
-    "impact": "2",
-    "comments": "This is a sample pipeline script to be added in your change step",
-    "work_notes": "Update this to work_notes",
-    "start_date": "2026-09-07 11:59:59",
-    "end_date": "2026-09-09 11:59:59"
-  }
-}'
+
+
